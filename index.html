@@ -7,6 +7,17 @@
     <title>Document</title>
     <link rel="stylesheet" href="styles.css" />
     <script defer src="scripts.js"></script>
+    <!-- <script type="module">
+      import { sayHi } from "./sayHi.js";
+
+      document.body.innerHTML = sayHi("Andrey");
+    </script>
+    <script type="module" src="./hello.js"></script> -->
+    <script type="module" src="./init.js"></script>
+    <script type="module" src="./other.js"></script>
+    <script nomodule>
+      console.log("nomodule");
+    </script>
   </head>
   <body></body>
 </html>
