@@ -1,1 +1,11 @@
-export let user = "Andrey";
+// export let user = "Andrey";
+
+export default class User {
+  constructor(name) {
+    this.name = name;
+  }
+}
+
+export function sayHi(user) {
+  console.log(`Hello ${user}`);
+}
