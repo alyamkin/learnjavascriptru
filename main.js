@@ -4,7 +4,7 @@
 // import { sayHi as hi, sayBye as bye } from "./say.js";
 // import * as say from "./say.js";
 
-import { default as User, sayHi } from "./user.js";
+// import { default as User, sayHi } from "./user.js";
 
 // say.sayHi("Andrey");
 // say.sayBye("Andrey");
@@ -18,4 +18,4 @@ import { default as User, sayHi } from "./user.js";
 // const userAndrey = new User("Andrey");
 // console.log(userAndrey);
 
-sayHi("Andrey");
+// sayHi("Andrey");
